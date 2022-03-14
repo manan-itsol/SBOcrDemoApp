@@ -49,6 +49,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Export" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -69,6 +70,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\SBSDKLanguageData\eng.traineddata" />
+    <AndroidAsset Include="Assets\SBSDKLanguageData\osd.traineddata" />
+    <AndroidAsset Include="Assets\SBSDKLanguageData\equ.traineddata" />
+    <AndroidAsset Include="Assets\SBSDKLanguageData\lat.traineddata" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

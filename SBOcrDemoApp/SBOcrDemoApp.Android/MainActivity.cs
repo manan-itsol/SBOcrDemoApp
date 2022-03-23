@@ -19,21 +19,23 @@ namespace SBOcrDemoApp.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             const string LICENSE_KEY =
-  "A3DQdaSlrCotN4ctoEjTRUAkagqjOr" +
-  "uuHkipFnL1LtPpAiazzGrTqaXB2IJA" +
-  "ZNLo2R1jytf82ENYlLuAFvcvh5WtCQ" +
-  "h9VY9uyDKm+bMtbPvEDpPCYmqWDQ6F" +
-  "QbCRqPoej2L5bE29yDhBqwkrz9JBxH" +
-  "ogUGhOtjxAuLu/qWsCWd/1OXsIi2Jy" +
-  "U1Uw1dlHrq4AzLflKrJxRd9hjqCdvE" +
-  "7x7m/psi1UohfgVmN7adQk+h84D901" +
-  "Fr/jRQFRsxxGxvZPi8JpII2301cdre" +
-  "C+vqxGT2nuB7CC857OlRA5OddC8wwe" +
-  "6oVj+vZujNDR0nVRpW2EEPEEPAvLzS" +
-  "X0hEc52SjQOA==\nU2NhbmJvdFNESw" +
-  "pjb20uY29tcGFueW5hbWUuc2JvY3Jk" +
-  "ZW1vYXBwCjE2NDU0ODc5OTkKODM4OD" +
-  "YwNwoz\n";
+  "khh43nd/veiDhZA1R1R51daQFTn4Fj" +
+  "dkSWSIilXBOmL5t++/Zw/d2MPFwGYY" +
+  "V92mCdwqAtRLqYpwbNUr1puevjqgbz" +
+  "KaiaKor30e7aIIbkXWz4mBQ873ZRP+" +
+  "kzT1V6tCttZYUVkzpOPtwcPJyYpEOI" +
+  "BvSBkQHI+SCMyNsNRCk3VPPb9CJjnS" +
+  "F2+DnWk0MNOHv9WJsHlAYeX6OFmHgH" +
+  "jZucnAJQyRWWxfugmgoOXxG742xrzV" +
+  "50O4L1EwmHit8WH4F6y1Qp4Ht/gNq6" +
+  "AmtrO/Z6iqj0T47KzSQdTvVs3HkvrV" +
+  "64aeX17lLHHmONB+RKBuqB3dJsZZC+" +
+  "rYZsvVzT3Xyg==\nU2NhbmJvdFNESw" +
+  "pjb20uZGVtbzExLnNib2NyZGVtb2Fw" +
+  "cAoxNjQ4Njg0Nzk5CjgzODg2MDcKMw" +
+  "==\n";
+
+
             // You can pass null as licenseKey for trial mode. See the "License" section for more details.
             SBSDKInitializer.Initialize(Application, LICENSE_KEY, new SBSDKConfiguration { EnableLogging = true });
 

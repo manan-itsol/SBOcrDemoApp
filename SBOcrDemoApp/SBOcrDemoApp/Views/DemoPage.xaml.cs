@@ -5,9 +5,9 @@ using Xamarin.Forms.Xaml;
 
 namespace SBOcrDemoApp.Views
 {
-    public partial class AboutPage : ContentPage
+    public partial class DemoPage : ContentPage
     {
-        public AboutPage()
+        public DemoPage()
         {
             InitializeComponent();
         }

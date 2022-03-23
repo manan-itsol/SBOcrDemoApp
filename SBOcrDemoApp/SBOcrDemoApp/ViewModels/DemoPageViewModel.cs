@@ -8,11 +8,11 @@ using Xamarin.Forms;
 
 namespace SBOcrDemoApp.ViewModels
 {
-    public class AboutViewModel : BaseViewModel
+    public class DemoPageViewModel : BaseViewModel
     {
-        public AboutViewModel()
+        public DemoPageViewModel()
         {
-            Title = "About";
+            Title = "OCR Demo";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
             CaptureCommand = new Command(async () => await ExecuteCaptureCommand());
         }
